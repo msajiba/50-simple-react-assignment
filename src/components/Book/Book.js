@@ -8,7 +8,8 @@ import {faArrowAltCircleRight} from '@fortawesome/free-solid-svg-icons'
 
 const Book = (props) => {
 
-    const {name, price,img} = props.book;
+    const {book, addProduct} = props;
+    const {name, price,img} = book;
 
     return (
         <div>
@@ -19,6 +20,7 @@ const Book = (props) => {
                         <h5 className='mt-2 mb-2'> {name} </h5>
                         <p className='mb-5'> <small> {price} </small> </p>
                         <button 
+                             onClick={()=> addProduct(book)}
                              className="btn btn-danger add-button">
                              add book 
                              <FontAwesomeIcon className='icon' icon={faArrowAltCircleRight} />    

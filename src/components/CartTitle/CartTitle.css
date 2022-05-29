@@ -1,0 +1,15 @@
+.image-part img{
+    width: 40px;
+    height: 40px;
+}
+.title-part {
+        font-size: 15px;
+}
+.button-part {
+    font-size: 10px;
+}
+.btn-icon {
+    border-radius: 50%;
+    border: 1px solid gray;
+    font-size: 12px;
+}
