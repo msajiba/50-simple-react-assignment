@@ -1,0 +1,13 @@
+.logo-header{
+    height: 70px;
+}
+.header {
+   margin:0px auto;
+}
+.header a {
+    font-size: 18px;
+    font-weight: 600;
+}
+.header a:hover{
+    color:rgb(167, 167, 32);
+}
