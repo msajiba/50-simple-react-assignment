@@ -18,7 +18,7 @@ const Book = (props) => {
                     <img className='book-img' src={img} alt="" />
                     <div className="text-center">
                         <h5 className='mt-2 mb-2'> {name} </h5>
-                        <p className='mb-5'> <small> {price} </small> </p>
+                        <p className='mb-5'> <small> $ {price} </small> </p>
                         <button 
                              onClick={()=> addProduct(book)}
                              className="btn btn-danger add-button">
